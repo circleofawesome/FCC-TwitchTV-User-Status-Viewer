@@ -1,0 +1,14 @@
+body{
+	background-color: #0C1631;
+}
+
+.title{
+	text-align: center;
+	font-size: 80px;
+	/*color: #DB051F;*/
+	color: #FF651B;
+}
+
+.streamer-container{
+	background-color: #555555;
+}
