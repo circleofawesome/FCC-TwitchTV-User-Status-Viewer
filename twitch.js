@@ -130,18 +130,27 @@ $(document).ready(function(){
 
 	$(".all-button").on('click',function(){
 		for(i=0;i<twitchUsers.length;i++){
+			$(".online").empty();
+			$(".offline").empty();
+			$(".deleted").empty();
 			allStatus(twitchUsers[i]);
 		}
 	});
 
 	$(".online-button").on('click',function(){
 		for(i=0;i<twitchUsers.length;i++){
+			$(".online").empty();
+			$(".offline").empty();
+			$(".deleted").empty();
 			onlineStatus(twitchUsers[i]);
 		}
 	});
 
 	$(".offline-button").on('click',function(){
 		for(i=0;i<twitchUsers.length;i++){
+			$(".online").empty();
+			$(".offline").empty();
+			$(".deleted").empty();
 			offlineStatus(twitchUsers[i]);
 		}
 	});

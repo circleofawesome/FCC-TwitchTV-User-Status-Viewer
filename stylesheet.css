@@ -7,8 +7,17 @@ body{
 	font-size: 80px;
 	/*color: #DB051F;*/
 	color: #FF651B;
+	font-family: 'Press Start 2P', cursive;
 }
 
 .streamer-container{
 	background-color: #555555;
+	border-radius: 5px;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 12px;
+	color: #F5DA4D;
+}
+
+.bottom-buffer{
+	margin-bottom: 50px;
 }
