@@ -116,12 +116,35 @@ $(document).ready(function(){
 
 	//offlineTest("brunofin");
 	//offlineTest("freecodecamp");
-	for(i=0;i<twitchUsers.length;i++){
+	//for(i=0;i<twitchUsers.length;i++){
 		//allStatus(twitchUsers[i]);
 		//offlineStatus(twitchUsers[i]);
 		//onlineStatus(twitchUsers[i]);
 		//****ALL 3 OF THE ABOVE WORK; NOW MAKE BUTTONS TO USE THEM IN TO UPDATE THE PAGE ACCORDINGLY
+	//}
+
+	//when page loads this runs:
+	for(i=0;i<twitchUsers.length;i++){
+		allStatus(twitchUsers[i]);
 	}
+
+	$(".all-button").on('click',function(){
+		for(i=0;i<twitchUsers.length;i++){
+			allStatus(twitchUsers[i]);
+		}
+	});
+
+	$(".online-button").on('click',function(){
+		for(i=0;i<twitchUsers.length;i++){
+			onlineStatus(twitchUsers[i]);
+		}
+	});
+
+	$(".offline-button").on('click',function(){
+		for(i=0;i<twitchUsers.length;i++){
+			offlineStatus(twitchUsers[i]);
+		}
+	});
 
 });
 
