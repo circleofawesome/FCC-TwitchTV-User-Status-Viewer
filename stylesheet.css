@@ -21,3 +21,31 @@ body{
 .bottom-buffer{
 	margin-bottom: 50px;
 }
+
+.btn{
+	font-family: 'Press Start 2P', cursive;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.link{
+	color: #FF651B;
+}
+
+.deleted-link{
+	pointer-events:none;
+}
+
+.offline-text{
+	color: black;
+}
+
+.online-text{
+	color: 6BE649;
+}
+
+.game-text{
+	color: #003333;
+}
